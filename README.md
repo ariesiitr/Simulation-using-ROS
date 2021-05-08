@@ -322,7 +322,7 @@ Now go to this website and download the version 1.3.33 which gets saved in downl
                            //firmware.us.ardupilot.org/Tools/MissionPlanner/archive/
 
 
-On addition to this get these installed as well
+On addition to this get these installed as well and also get the move.py file attached above in your home directory.
 
                                                 sudo pip install mavproxy
 
@@ -394,7 +394,7 @@ Set paths for models:
 
 
 
-NOw you are all set to simulate the drone we have added two python files in this repo one is the waypoints.py and another is the mov.py . The mov.py has pre defined waypoints and the quadcopter follows the direction while the waypoints.py asks the user to enter the desired no. of waypoints as well as their values.
+NOw you are all set to simulate the drone we have added two python files in this repo one is the waypoint.py and another is the mov.py . The mov.py has pre defined waypoints and the quadcopter follows the direction while the waypoints.py asks the user to enter the desired no. of waypoints as well as their values.
 
 
 Run Simulator
@@ -420,8 +420,9 @@ Fly drone through this command in another yerminal with this the drone will foll
                                              
 Or you can fly drone through this command in another yerminal with this the drone will follow the waypoints as instructed in this waypoints.py code.
 
-                                             python waypoints.py                                            
+                                             python waypoint.py                                            
   
   
   The detailed documentation of process of writting this python file is available at http://dronekit.io/
+  
   Thanks :)

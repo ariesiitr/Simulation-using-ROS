@@ -84,9 +84,10 @@ def add_mission():
         l=True
         while(l):
                try:
-                    x=float(input('x cordinates :- '))
-                    y=float(input('y cordinates :- '))
-                    z=float(input('z cordinates :- '))
+                   print("for waypoint no "+str(i+1))
+                    x=float(input('latitude :- '))
+                    y=float(input('longitude :- '))
+                    z=float(input('Altitude :- '))
                     l=False
                except:
                     print('retry')
@@ -140,9 +141,9 @@ def arm_and_takeoff(aTargetAltitude):
 
 arm_and_takeoff(10)
 print("current postion")
-print("x cordinate "+str(vehicle.location.global_relative_frame.lat))
-print("y cordinate "+str(vehicle.location.global_relative_frame.lon))
-print("z cordinate "+str(vehicle.location.global_relative_frame.alt))
+print("latitude "+str(vehicle.location.global_relative_frame.lat))
+print("longitude "+str(vehicle.location.global_relative_frame.lon))
+print("altitude "+str(vehicle.location.global_relative_frame.alt))
 add_mission()
 print("Starting mission")
 # Reset mission set to first (0) waypoint

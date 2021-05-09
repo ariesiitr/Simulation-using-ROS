@@ -1,7 +1,6 @@
-# ros_simulation_multicopter
-Aries project
+
 # QUADCOPTER SIMULATION USING ROS
-arIES Project
+ARIES Project
 
 Welcome to the repository,
 In the below lines we have tried to give a  detailed instruction set on how the drone simulation in Gazebo9 using Robotic Operating System (ROS) happens.
@@ -414,11 +413,11 @@ In another Terminal (Terminal 2), run SITL:
 
 
                      sim_vehicle.py -v ArduCopter -f gazebo-iris --console
-Fly drone through this command in another yerminal with this the drone will follow the waypoints as instructed in this mov.py code.
+Fly drone through this command in another terminal with this the drone will follow the waypoints as instructed in this mov.py code.
 
                                              python mov.py 
                                              
-Or you can fly drone through this command in another yerminal with this the drone will follow the waypoints as instructed in this waypoints.py code.
+Or you can fly drone through this command in another terminal with this the drone will follow the waypoints as instructed in this waypoints.py code.
 
                                              python waypoint.py                                            
   

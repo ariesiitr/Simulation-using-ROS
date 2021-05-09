@@ -369,7 +369,7 @@ Set paths for models:
 
 
 
-NOw you are all set to simulate the drone we have added two python files in this repo one is the waypoint.py and another is the mov.py . The mov.py has pre defined waypoints and the quadcopter follows the direction while the waypoints.py asks the user to enter the desired no. of waypoints as well as their values.
+NOw you are all set to simulate the drone we have added two python files in this repo one is the waypoint.py and another is the mov.py . The mov.py has pre defined waypoints and the quadcopter follows the direction while the waypoint.py asks the user to enter the desired no. of waypoints as well as their values.
 
 
 Run Simulator

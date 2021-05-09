@@ -84,7 +84,7 @@ def add_mission():
         l=True
         while(l):
                try:
-                   print("for waypoint no "+str(i+1))
+                    print("for waypoint no "+str(i+1))
                     x=float(input('latitude :- '))
                     y=float(input('longitude :- '))
                     z=float(input('Altitude :- '))

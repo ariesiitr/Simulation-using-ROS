@@ -1,5 +1,3 @@
-from __future__ import print_function
-
 from dronekit import connect, VehicleMode, LocationGlobalRelative, LocationGlobal, Command
 import time
 import math
@@ -130,7 +128,7 @@ def arm_and_takeoff(aTargetAltitude):
     print("Taking off!")
     vehicle.simple_takeoff(aTargetAltitude) # Take off to target altitude
 
-    # Wait until the vehicle reaches a safe height before processing the goto (otherwise the command 
+    # Wait until the vehicle reaches a safe height before processing the goto 
     
     while True:
         print(" Altitude: ", vehicle.location.global_relative_frame.alt)      

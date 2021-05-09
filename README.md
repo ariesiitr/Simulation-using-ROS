@@ -23,25 +23,6 @@ Solving Time Issue After Dual Boot
         timedatectl set-local-rtc 1 --adjust-system-clock
 
 
-Install Terminator
-
-          sudo add-apt-repository ppa:gnome-terminator
-
-        sudo apt-get install terminator
-
-
-Install Sublime Text
-
-      wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-
-       echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-
-     sudo apt-get update
-
-      sudo apt-get install sublime-text
-
-        subl
-
 
 Important Linux Packages
 
@@ -53,11 +34,6 @@ Install Gazebo 9
         sudo apt-get install gazebo9 libgazebo9-*
 
 
-Install Arduino IDE
-
-Open up a terminal in arduino folder and then type this command
-
-            sudo ./install.sh
 
 
 Install GIT

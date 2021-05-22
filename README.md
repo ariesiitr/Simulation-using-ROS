@@ -383,7 +383,7 @@ In one Terminal (Terminal 1), run Gazebo:
                         gazebo --verbose ~/ardupilot_gazebo/worlds/iris_arducopter_runway.world
 
 
-In another Terminal (Terminal 2), run SITL:
+In another Terminal (Terminal 2), run SITL(Software in the loop):
 
                     cd ~/ardupilot/ArduCopter/
 
